@@ -4,7 +4,7 @@ A Student Management App to keep track of the activities of your Students
 
 ## Getting Started
 
-This project includes to online Attendance marking, Quiz And Scoring of your Students Exam
+This project includes online Attendance marking, Quiz And Scoring of your Students Exam
 
 
 For help getting started with Flutter development, view the
