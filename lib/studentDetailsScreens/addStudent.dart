@@ -80,7 +80,6 @@ class _AddStudentState extends State<AddStudent> {
                   SizedBox(height: 30),
                   TextField(
                     controller: classController,
-                    keyboardType: TextInputType.number,
                     decoration: InputDecoration(
                       hintText: "Enter your Class",
                       labelText: "Class",
