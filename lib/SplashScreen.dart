@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:student_management_app/menuPage.dart';
+import 'package:student_management_app/user_selection.dart';
 
 void main(){
   runApp(const SplashScreen());
@@ -17,7 +18,7 @@ class _SplashScreenState extends State<SplashScreen> {
     Future.delayed(Duration(seconds: 3), () {
       Navigator.push(
         context,
-        MaterialPageRoute(builder: (context) => MenuScreen()),
+        MaterialPageRoute(builder: (context) => UserSelection()),
       );
     });
   }
